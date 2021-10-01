@@ -2386,7 +2386,141 @@ input, select, textarea {
 			position: relative;
 			vertical-align: top;
 			width: 48%;
+			font-size: 1.5em;
 		}
+
+			ul.feature-icons .feature-react:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-javascript:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-ruby:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-rails:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-redux:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-html:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-css:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-postgresql:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-mongodb:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-git:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-node:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
+			ul.feature-icons .feature-express:before{
+				content: '';
+				display: inline-block;
+				/* height: 1em;
+				width: 1em; */
+				background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-right:0.5em;   
+				background-size: 2em;
+			}
 
 			ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
@@ -2402,12 +2536,13 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
-				border-radius: 100%;
+				/* background: #4acaa8; */
+				/* border-radius: 100%; */
 				color: #ffffff;
 				display: block;
 				height: 2.5em;
-				left: 0;
+				/* left: 0; */
+				left: 0.5em;
 				line-height: 2.5em;
 				position: absolute;
 				text-align: center;
@@ -2683,6 +2818,10 @@ input, select, textarea {
 
 			.features article .inner > :last-child {
 				margin-bottom: 0;
+			}
+
+			.features article .inner .inner-head {
+				margin: 0 0 0 0;
 			}
 
 /* Header */
